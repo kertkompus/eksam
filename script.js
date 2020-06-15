@@ -1,12 +1,3 @@
-function toggleMenu() {
-    var x = document.getElementById("menuLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
-
 var slideIndex = 0;
 showSlides();
 
@@ -23,18 +14,9 @@ function showSlides() {
     setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
-games();
-
-alert("töötab");
-
-function games() {
-    for (let i = 0; i < 8; i++) {
-        const gallery = document.getElementsByClassName("gallery");
-        //alert(gallery.length);
-        const div = document.createElement("div");
-        div.classList.add("game");
-        var name = "game" + i + ".jpg";
-        div.innerHTML = `<img src=name alt="product">`;
-        gallery.appendChild(div);
-    }
+function detailPage(index) {
+    var val=index;
+    var queryString = "?game=" + val;
+    window.location.href = "details.html" + queryString;
 }
+

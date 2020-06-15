@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Mängude Maailm</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -12,15 +11,15 @@
     <!-- Banner -->
     <div class="slideshow-container">
         <div class="bannerSlide fade">
-            <img src="./images/banner1.jpg" style="width:100%">
+            <img class="bannerPic" src="./images/banner1.jpg">
         </div>
 
         <div class="bannerSlide fade">
-            <img src="./images/banner2.jpg" style="width:100%">
+            <img class="bannerPic" src="./images/banner2.jpg">
         </div>
 
         <div class="bannerSlide fade">
-            <img src="./images/banner3.jpg" style="width:100%">
+            <img class="bannerPic" src="./images/banner3.jpg">
         </div>
     </div>
 
@@ -31,13 +30,13 @@
 
         <!-- peamenüü -->
         <div class="main-menu">
-            <!--<div id="menuLinks">
+            <button class="menuButton">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="menuLinks">
                 <a href="#">Lorem</a>
                 <a href="#">Ipsum</a>
-            </div>-->
-            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                <i class="fa fa-bars"></i>
-            </a>
+            </div>
         </div>
 
         <!-- logo -->
@@ -62,14 +61,14 @@
     </nav>
 
     <div class="gallery">
-        <a href="details.html"><img class="games" src="./images/game1.jpg"></a>
-        <img class="games" src="./images/game2.jpg">
-        <img class="games" src="./images/game3.jpg">
-        <img class="games" src="./images/game4.jpg">
-        <img class="games" src="./images/game5.jpg">
-        <img class="games" src="./images/game6.jpg">
-        <img class="games" src="./images/game7.jpg">
-        <img class="games" src="./images/game8.png">
+        <a href="details.html?id=1"><img class="games" src="./images/game1.jpg"></a>
+        <a href="details.html?id=2"><img class="games" src="./images/game2.jpg"></a>
+        <a href="details.html?id=3"><img class="games" src="./images/game3.jpg"></a>
+        <a href="details.html?id=4"><img class="games" src="./images/game4.jpg"></a>
+        <a href="details.html?id=5"><img class="games" src="./images/game5.jpg"></a>
+        <a href="details.html?id=6"><img class="games" src="./images/game6.jpg"></a>
+        <a href="details.html?id=7"><img class="games" src="./images/game7.jpg"></a>
+        <a href="details.html?id=8"><img class="games" src="./images/game8.jpg"></a>
 
         <!--galerii laenutatavastest esemetest, peab olema võimalus esemete koheseks valimiseks ja tellimuse esitamiseks-->
     </div>

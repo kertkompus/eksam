@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Toote kirjeldus</title>
+    <title>Product details</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -12,15 +11,15 @@
     <!-- Banner -->
     <div class="slideshow-container">
         <div class="bannerSlide fade">
-            <img src="./images/banner1.jpg" style="width:100%">
+            <img class="bannerPic" src="./images/banner1.jpg">
         </div>
 
         <div class="bannerSlide fade">
-            <img src="./images/banner2.jpg" style="width:100%">
+            <img class="bannerPic" src="./images/banner2.jpg">
         </div>
 
         <div class="bannerSlide fade">
-            <img src="./images/banner3.jpg" style="width:100%">
+            <img class="bannerPic" src="./images/banner3.jpg">
         </div>
     </div>
 
@@ -31,13 +30,13 @@
 
         <!-- peamenüü -->
         <div class="main-menu">
-            <!--<div id="menuLinks">
+            <button class="menuButton">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="menuLinks">
                 <a href="#">Lorem</a>
                 <a href="#">Ipsum</a>
-            </div>-->
-            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                <i class="fa fa-bars"></i>
-            </a>
+            </div>
         </div>
 
         <!-- logo -->
@@ -61,13 +60,7 @@
         </div>
     </nav>
 
-    <div class="details">
-        <img class="pic" src="./images/game1.jpg">
-        <div class="info">
-            <h2>The Elder Scrolls V: Skyrim Special Edition</h2>
-            <h3>63.99€</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non odio ac elit dictum lobortis ac ac lacus. Vestibulum scelerisque ipsum quis metus lobortis sagittis. Phasellus ac felis sit amet odio scelerisque dictum. Maecenas eget erat placerat orci posuere commodo. Nulla accumsan pulvinar sem, eu sagittis ligula laoreet sit amet. Maecenas feugiat neque eu orci lacinia, vitae lacinia mauris luctus. </p>
-        </div>
+    <div id="details">
         <!--laenutatava eseme suur pilt ja detailne informatsioon-->
     </div>
 
@@ -93,6 +86,7 @@
         </div>
 
     </footer>
+    <script src="details.js"></script>
     <script src="script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
