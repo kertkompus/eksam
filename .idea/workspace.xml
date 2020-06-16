@@ -4,7 +4,7 @@
     <list default="true" id="b6a1a109-3a37-4ebd-93ee-4394fe9a0788" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/game8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -49,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592212726905</updated>
-      <workItem from="1592212728504" duration="22132000" />
+      <workItem from="1592212728504" duration="32724000" />
     </task>
     <servers />
   </component>

@@ -52,23 +52,26 @@
             </div>
 
             <!-- sisselogimise võimalus -->
-            <div class="login">
-                <div class="login-container">
-                    <button href="#" id="login">Login</button>
-                </div>
+            <div id="loginContainer">
+                <input type="text" placeholder="Enter Username" id="uname" required>
+                <input type="password" placeholder="Enter Password" id="psw" required>
+                <button id="login" onclick="loginFn()">Login</button>
+            </div>
+            <div id="logoutContainer">
+                <button id="logout" onclick="logoutFn()">Log out</button>
             </div>
         </div>
     </nav>
 
-    <div class="gallery">
-        <a href="details.html?id=1"><img class="games" src="./images/game1.jpg"></a>
-        <a href="details.html?id=2"><img class="games" src="./images/game2.jpg"></a>
-        <a href="details.html?id=3"><img class="games" src="./images/game3.jpg"></a>
-        <a href="details.html?id=4"><img class="games" src="./images/game4.jpg"></a>
-        <a href="details.html?id=5"><img class="games" src="./images/game5.jpg"></a>
-        <a href="details.html?id=6"><img class="games" src="./images/game6.jpg"></a>
-        <a href="details.html?id=7"><img class="games" src="./images/game7.jpg"></a>
-        <a href="details.html?id=8"><img class="games" src="./images/game8.jpg"></a>
+    <div id="gallery">
+        <a href="details.html?id=1&logged=out"><img class="games" src="./images/game1.jpg" alt="Game cover"></a>
+        <a href="details.html?id=2&logged=out"><img class="games" src="./images/game2.jpg" alt="Game cover"></a>
+        <a href="details.html?id=3&logged=out"><img class="games" src="./images/game3.jpg" alt="Game cover"></a>
+        <a href="details.html?id=4&logged=out"><img class="games" src="./images/game4.jpg" alt="Game cover"></a>
+        <a href="details.html?id=5&logged=out"><img class="games" src="./images/game5.jpg" alt="Game cover"></a>
+        <a href="details.html?id=6&logged=out"><img class="games" src="./images/game6.jpg" alt="Game cover"></a>
+        <a href="details.html?id=7&logged=out"><img class="games" src="./images/game7.jpg" alt="Game cover"></a>
+        <a href="details.html?id=8&logged=out"><img class="games" src="./images/game8.jpg" alt="Game cover"></a>
 
         <!--galerii laenutatavastest esemetest, peab olema võimalus esemete koheseks valimiseks ja tellimuse esitamiseks-->
     </div>

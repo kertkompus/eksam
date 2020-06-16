@@ -52,10 +52,13 @@
             </div>
 
             <!-- sisselogimise võimalus -->
-            <div class="login">
-                <div class="login-container">
-                    <button href="#" id="login">Login</button>
-                </div>
+            <div id="loginContainer">
+                <input type="text" placeholder="Enter Username">
+                <input type="password" placeholder="Enter Password">
+                <button id="login" onclick="loginFn()">Login</button>
+            </div>
+            <div id="logoutContainer">
+                <button id="logout" onclick="logoutFn()">Log out</button>
             </div>
         </div>
     </nav>
